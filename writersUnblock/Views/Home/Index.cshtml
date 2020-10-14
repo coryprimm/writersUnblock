@@ -1,0 +1,31 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div style="background-color:black; color:white; vertical-align:center;">
+    <img style="width:100%;" src="images/banner.png" alt="Sample Photo" />
+    <h1 style="color:forestgreen; font:Verdana, Arial, Courier; font-size: 30px; text-align: center; background:black;">The Custom Random Sentence Generator</h1>
+
+    <form asp-action="AddSearch" controller="Home" method="POST">
+        <div style="padding-left: 20%; padding-top:50px; height:100px; width:100%; background-color:black; color:white;"><label for="numberOfSearches">Search with</label> <select id="testSelect" name="testSelect"><option title="Invention?" value="invBool" name="invBool">Invention</option><option title="Custom?" value="custBool" name="custBool">Custom</option><option title="Regular?" value="regBool" name="regBool">Regular</option></select><span style="display:inline;">&nbsp;format&nbsp;</span>&nbsp;<input class="form-control" style="max-width:100px; display:inline;" type="number" name="numberOfSearches"><span style="display:inline;">&nbsp;times&nbsp;</span><select id="googBool" name="googBool"><option value="sansGoog" name="sansGoog">Just Sentences, No Search</option><option value="wGoogle" name="wGoogle">With Google</option></select><span>.</span><button class="btn btn-primary">Generate Sentences</button>&nbsp;</span></div>
+
+        <br><label for="custQuery" style="vertical-align:center;"><b>Custom Query entry:</b></label><br>
+        <input class="form-control" name="custQuery" style="">
+
+        <h3 style="vertical-align:center;">
+            Usage Key:<br> *Noun -> Random Noun <br>
+            *Verb -> Random Verb <br>
+            *Prep -> Random Preposition <br>
+            *Inv -> Random Invention <br>
+            *Guy -> Random Famous Person <br>
+            *Hex -> Random Hexagram <br><br>
+
+            Everything else is input as entered.
+        </h3>
+
+
+
+    </form>
+
+</div>
+
