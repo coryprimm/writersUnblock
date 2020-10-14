@@ -2150,7 +2150,7 @@ namespace writersUnblock.Controllers
 			"ensure",
 			"entail",
 			"enter",
-			"establish",
+			"establish",//Panda
 			"examine",
 			"exist",
 			"expand",
