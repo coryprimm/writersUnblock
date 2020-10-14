@@ -10,7 +10,7 @@ Dual-purpose app, letting you:
 Suggested usages: poetry, inspiration, comedy, invention ideas, poor and confusing English.
 
 To use appropriately:
-Being a C# app you will have to have Visual Studio to run this after you download it/clone it. On it you will have to install Puppeteer Sharp to the project.
+Being a C# app, Visual Studio is required to run this after you download it/clone it. On it you will have to install Puppeteer Sharp to the project.
 To install Puppeteer Sharp to the app: Once you have the project open in Visual Studio, click "Project" from the top select bar. In the window that opens, click the search bar and type "Puppeteer Sharp". The Window should populate with results, for mine it's the first result coming up as "Puppeteer Sharp". Click the select box. Once the select box is checked, click "Add Package".
 
 More about Puppeteer Sharp and related info:
