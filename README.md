@@ -1,7 +1,7 @@
 # writersUnblock
 Customizable Random Sentence Generator in DOTNET / C#
 
-Dual-purpose app:
+Dual-purpose app, letting you:
 
 1.) Create few to thousands of random sentences in the verb/noun/preposition/other structure desired.
 
