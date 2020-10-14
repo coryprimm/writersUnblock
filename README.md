@@ -17,8 +17,8 @@ To install Puppeteer Sharp to the app: Once you have the project open in Visual 
 
 More about Puppeteer Sharp and related info:
 
-https://www.puppeteersharp.com/
-https://developers.google.com/web/tools/puppeteer
+https://www.puppeteersharp.com/ <br>
+https://developers.google.com/web/tools/puppeteer <br>
 https://github.com/puppeteer/puppeteer
 
 https://en.wikipedia.org/wiki/Headless_browser
