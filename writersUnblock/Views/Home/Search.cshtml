@@ -1,0 +1,49 @@
+﻿@{
+    ViewData["Title"] = "Second";
+}
+<div class="text-center">
+    <a href="/">First</a>
+    <div>
+        <p>Go back to start </p>
+    </div>
+</div>
+
+@if (ViewBag.searchResults != null)
+{
+    <table>
+        <thead>
+            <tr>
+                <th>Number of Results&nbsp;&nbsp;&nbsp;&nbsp;</th>
+                <th style="margin-left: 20px;">&nbsp;&nbsp;&nbsp;Google Searched Items</th>
+            </tr>
+        </thead>
+
+        @foreach (var result in ViewBag.searchResults)
+        {
+            <tr>
+                <td>@result.Key</td>
+                <td>@result.Value</td>
+            </tr>
+        }
+
+    </table>
+}
+
+@if (ViewBag.sansGoogle != null)
+{
+    <table>
+        <thead>
+            <tr>
+                <th style="margin-left: 20px;">&nbsp;&nbsp;&nbsp;Random Sentence</th>
+            </tr>
+        </thead>
+
+        @foreach (var result in ViewBag.sansGoogle)
+        {
+            <tr>
+                <td>@result</td>
+            </tr>
+        }
+
+    </table>
+}
